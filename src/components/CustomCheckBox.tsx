@@ -18,7 +18,7 @@ function CustomCheckBox({ todo }: prototype) {
 
     return (
         <span className="custom-checkbox m-auto my-1" onClick={handleCheckboxChange}>
-            {checked && <div className="checkmark"></div>}
+            {checked && <div className="checkmark"><input type="checkbox" className='hidden' value={checked ? 'true' : 'false'} /></div>}
         </span>
     );
 }
