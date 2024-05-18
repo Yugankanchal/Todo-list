@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div className='w-[39%] mx-auto my-[2rem] bg-white rounded-[.25rem] min-w-[350px] '>
-        <p className='text-xl px-2 font-bold'>Take ur Notes</p>
+        <p className='text-xl px-2 font-bold'>Your notes</p>
         <ul className='m-auto '>
           {
             TodoList.map((todo) => (
